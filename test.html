@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position :relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0%   {top: 0px; background: red; width: 25px;}
+	20% {top: 50px; background: orange; width: 50px;}
+	40% {top: 70px; background: yellow; width: 75px;}
+	60% {top: 100px; background: green; width: 100px;}
+	80% {top: 125px; background: blue; width: 150px;}
+    100% {top: 200px; background: purple; width: 300px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {top: 0px; background: red; width: 25px;}
+	20% {top: 50px; background: orange; width: 50px;}
+	40% {top: 70px; background: yellow; width: 75px;}
+	60% {top: 100px; background: green; width: 100px;}
+	80% {top: 125px; background: blue; width: 150px;}
+    100% {top: 200px; background: purple; width: 300px;}
+}
+</style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html> <!-- COLOR HEX CODES: navy-113344, red-cc4455, magenta-bb55aa, cream-eeccbb, blue-4488aa -->
+<head>
+<meta charset="utf-8">
+<title>Flower Abstraction</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<main id="main">
+	<header id="header">
+		<p id="headerText">Georgia O'Keeffe</p>
+		<hr class="hr">
+	</header>
+	<nav id="navbar">
+		<a href="Index.html"><button class="button">Home</button></a>
+		<a href="Biography.html"><button class="button">Biography</button></a>
+				<div class="dropdown">
+ 				<button onclick="myFunction()" class="dropbtn">Gallery</button>
+  				<div id="myDropdown" class="dropdown-content">
+  					<a href="Gallery.html">Gallery Home</a>
+  					<a href="BlueMorningGlories.html">Blue Morning Glories</a>
+					<a href="EastRiverNo1.html">East River No.1</a>
+					<a href="FlowerAbstraction.html">Flower Abstraction</a>
+					<a href="FromTheLake.html">From the Lake</a>
+					<a href="HeadwithBrokenPot.html">Head with Broken Pot</a>
+					<a href="NatureFormsGasp.html">Nature Forms Gasp</a>
+					<a href="PelvisII.html">Pelvis II</a>
+					<a href="Ram'sHeadWhiteHollyhockHills.html">Ram's Head, White Hollyhock Hills</a>
+					<a href="ShellNo1.html">Shell No.1</a>
+  				</div>
+			</div>
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+		<a href="Museum.html"><button class="button">Museum</button></a>
+	</nav>
+	<figure><img src="4.jpg" class="fullImg"><figcaption class="galCaptions">Flower Abstraction</figcaption></figure>
+	
+	<hr class="hr">
+	<footer id="footer">
+		<p> --Copyright 2017--</p>
+	</footer>
+	</main>
+</body>
+</html>

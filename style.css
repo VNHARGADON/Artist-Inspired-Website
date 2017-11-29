@@ -1,0 +1,225 @@
+/*Victoria Hargadon*/
+
+a:link {
+	color:#4488aa;
+}
+a:hover{
+	color:#cc4455;
+}
+a:visited{
+	color:#bb55aa;
+}
+a:focus{
+	color:#AA2838;
+}
+#main{
+	background-color:#EECCBB;
+	margin-right:5px;
+	margin-left:5px;
+	border:solid;
+	border-color: #DDB29D;
+	overflow:auto;
+	
+}
+.text{
+	font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: #113344;
+	font-size:15px;
+	margin-left:3px;
+	margin-right:3px;
+}
+#header{
+	text-align: center;
+	background-image:url("http://orig12.deviantart.net/223b/f/2017/030/6/6/untitled_by_atheias-daxbiub.png");
+	background-repeat:no-repeat;
+	height:75px;
+	width:300px;
+	border-radius:20px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:5px;
+}
+#headerText{
+	padding:20px;
+	font-size:35px;
+	text-decoration:underline;
+	color: #ffffff;
+}
+#navbar{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.button{
+	background-color:#CC4455;
+	border-color:#AA2838;
+	padding:2px;
+	margin:7px;
+	color:#113344;
+	width:90px;
+	border-radius:7px;
+}
+.button:hover{
+	background-color: #EC5D6F;
+	border-color:#CC4455;
+}
+.art1{
+	
+	float:right;
+	text-align:justify;
+	margin-top:20px;
+	padding:3px;
+	margin-right:10px;
+	width:75%;
+
+}
+#footer{
+	text-align:center;
+	opacity:.35;
+	padding-bottom:3px;
+}
+.hr{
+	display:block;
+	margin-right: auto;
+	margin-left:auto;
+	text-align:center;
+	width:300px;
+	opacity:.35;
+}
+#image{
+	display:inline;
+	width:20%;
+	height:20%;
+	border:double;
+	border-color: #4488aa;
+}
+.caption{
+	margin-left:100px;
+}
+.art2{
+	float:left;
+	text-align:justify;
+	font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: #113344;
+	width:60%;
+	height:500px;
+	
+	margin-left:10px;
+	margin-right:10px;
+}
+.imageGal{
+	text-align: center;
+}
+.galImage{
+	opacity:.5;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+}
+.galImage:hover{
+	opacity:1;
+}
+.galCaptions{
+	text-align: center;
+	margin-top:10px;
+	font-size:10;
+}
+.fullImg{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	height:50%;
+	width:50%;
+}
+.dropbtn {
+    font-size: 16px;
+    cursor: pointer;
+	background-color:#CC4455;
+	border-color:#AA2838;
+	padding:2px;
+	margin:3px;
+	color:#113344;
+	border-radius:7px;
+	width:90px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #EC5D6F;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width:100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #4488aa;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+	background-color: #f1f1f1;
+	border-color:#CC4455;
+}
+
+.show {
+	display:block;
+}
+#image2{
+	margin-left:50px;
+}
+#top{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#content{
+	display:block;
+	margin-left:15px;
+	margin-right:15px;
+}
+#bottom{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#art3{
+	width: 50%;
+	float:left;
+	margin-right:15px;
+	margin-top:100px;
+	margin-left:50px;
+	padding:5px;
+	text-align:justify;
+}
+#museum{
+	margin-top:15px;
+	margin-bottom:10px;
+	margin-left:50px;
+	width:35%;
+	height:35%;
+}
+.imageIndex{
+	padding:5px;
+	height:200px;
+	float:right;
+	margin-top:25px;
+	margin-right:15px;
+}
+#imageBoard{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
